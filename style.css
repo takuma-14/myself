@@ -105,7 +105,7 @@ img{
 }
 
 #home {
-    background-image: url(https://takuma-14.github.io/myself/main-bg.jpg);
+    background-image: url('https://takuma-14.github.io/myself/main-bg.jpg');
     min-height: 100vh;
 }
 
