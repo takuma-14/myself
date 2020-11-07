@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+       font-family:"Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+       line-height: 1.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main-nav {
+    padding: 10px 2%;
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.main-nav li {
+    margin-right: 30px;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.main-nav a:hover {
+    color: #0bd;
+}
+
+.page-header {
+    width: 100%;
+    background-color: #f6efdb;
+    position: fixed;
+    top:0px;
+    left:20px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.name {
+    justify-content: center;
+}
+
+/* HOME
+----------------------------------*/
+.home-content {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+    color: #000000;
+}
+
+
+/*見出し*/
+.page-title {
+    font-size: 4rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+/*ボタン*/
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.button:hover {
+    background: #0090aa;
+}
+
+/*背景画像*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(../images/main-bg.jpg);
+    min-height: 100vh;
+}
+
+#home .page-title{
+    text-transform: none;
+}
+
+.about {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.about img {
+    width: 250px;
+    margin-left: 100px;
+}
+
+.ability {
+    background-image: url(../images/code.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.skills{
+    margin-top: 10px;
+    color:white;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.ability h1{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.html{
+    text-align: center;
+}
+.fa-code{
+    color: red;
+    font-size: 70px;
+    margin: 30px 0;
+}
+.fa-java{
+    color: orange;
+    font-size: 70px;
+    margin: 30px 0;
+}
+.fa-moon{
+    color:blue;
+    font-size: 70px;
+    margin: 30px 0;
+}
+.fa-github{
+    color: purple;
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.others{
+    color:black;
+}
+
+.ability2 {
+    background-image: url(../images/desk.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.others h1{
+    padding-bottom: 60px;
+}
+
+.fa-laptop-code{
+    color: green;
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.fa-microsoft{
+    color: gray;
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.fa-globe-asia{
+    color: cyan;
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.works{
+    color:white;
+}
+
+.ability3 {
+    background-image: url(../images/book.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding-top: 10%;
+}
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+     height:80px;
+}
+footer p{
+     padding-top: 30px;
+     font-size: 10px;
+}
